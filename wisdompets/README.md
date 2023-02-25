@@ -21,7 +21,8 @@ Learning Django Rest framework and building Api's
             ex: python manage.py startapp adoptions
         explantion : This will create an app as above with admin.py, apps.py, models.py, tests.py, view.py
 
-    5. Add the above app in settings.py file under installed apps
+    5. Add the above app in settings.py file under installed apps 
+        ex : settings.py line 40 inlcude withing 'installed_apps' list
 
     6. Once Model has been written, you need to migrate it by using this command under the project
                 python manage.py makemigrations  
